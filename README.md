@@ -1,1 +1,1 @@
-# AlarmclockProject
+# alarmclock-miniproject
