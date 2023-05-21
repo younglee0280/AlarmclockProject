@@ -1,5 +1,13 @@
-body{
-    
-    font-family: 'Open Sans', sans-serif;
-    
+.boxes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.bbox1{
+    justify-content: space-around;
+}
+
+.bbox2{
+    display: flex;   
 }

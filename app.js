@@ -80,7 +80,7 @@ function addAlarm(e){
     e.preventDefault();  //?
     // console.log(alarm.value);
     const value = alarm.value;
-    const id = new Date().getTime().toInt();    //약간의 치팅
+    const id = new Date().getTime().toInt();
     console.log(id);
     if(value !== '' && editFlag === false){
         console.log("add item to the list");
