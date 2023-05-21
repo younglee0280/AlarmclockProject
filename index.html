@@ -1,42 +1,39 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Alarmi</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link rel = "stylesheet" href="index.css"/>
-
-    
+    <title>My alarmi</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <section class="section-center">
-        <form class="alarm-form">
-            <p class="alert"></p>
-            <h1>My Alarmi</h1>
-            
-            <div class="alarm-container">
-                <input type="text" id="alarm" placeholder="시간을 추가하세요"/>
-                <button class="tab-btn" data-id="add">추가</button>
-                <button class="tab-btn" data-id="delete">삭제</button>
-                <button type="button" class="clear-btn">한꺼번에 삭제</button>
+    <div class="main">
+        <img src="wake-up-alarm-clock-with-two-bells-illustration-cartoon-isolated-dinamic-image-red-and-yellow-color-.svg" alt="">
+        <span class="function">다른 기능</span>&nbsp;
+        <span class="made by">제공자</span>&nbsp;
+        <span class="question">문의</span>&nbsp;
+    </div>
+    <hr>
+
+    <div class="boxes">
+        <div class="box" id="box1">
+            <div class="bbox1">
+                <form action="" method="get">
+                    <select id="lang-menu" name="lang">
+                        <option value="add">알람추가</option>
+                        <option value="delete">알람삭제</option>
+                    </select>
             </div>
-            
-                <!--<button class="tab-btn active"
-                data-id="add">Add</button>-->
-            
-        </form>
-            <div class="alarm-list">
-                    <p class="title">목록
-                        --------------------------------------
-                    </p>
-                    <div class="btn-container">
-                    </div>
-            </div>
-            
-    </section>
-    <script src="app.js"></script>    
+            <br>
+                <div class="bbox2">
+                    <input type="text" id="alarm" placeholder="시간을 추가하세요">
+                        <button class="tab-btn" data-id="confirm">확인</button>
+                        <button class="tab-btn" data-id="cancel">취소</button>
+                    </form>
+                </div>
+        </div>
+    </div>
+    
 </body>
-</html> -->
+</html>
