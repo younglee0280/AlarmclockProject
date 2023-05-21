@@ -7,7 +7,7 @@ const Alarm = (props) => {
     const [inputText, setInputText] = useState(props.title);
 
 	const doubleClickHandler = () => {
-		console.log('dd');
+		console.log('');
 		setIsEditing(true);
 	};
 
