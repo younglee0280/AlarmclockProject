@@ -49,7 +49,7 @@ npm start
 
 <img src="https://icongr.am/devicon/chrome-original.svg?size=128&color=currentColor" width="50" height="50" /> 브라우저로 실행 권장
 
-## :interrobang:트러블슈팅(에러 내역, 어떻게 해결했는지)
+<!-- ## :interrobang:트러블슈팅(에러 내역, 어떻게 해결했는지)
 :x:문제 : setInterval(callbackFn) 함수가 원하던대로 1초에 한번 작동하지 않고, 1초에 수십번 호출됨.<br/>
 :exclamation:분석: 정확한 원인은 모르겠으나, state가 바뀔때마다 화면이 렌더링되고, 그때마다 setInterval()이 계속 호출되서 정상적으로 작동하지 않는거 같음<br/>
 :o:해결 : useEffect() 의 두번째 인자에 빈 배열 [] 을 사용할경우 첫 렌더링때만 setInterval() 함수 호출 가능
@@ -61,7 +61,7 @@ npm start
 ## :rainbow:느낀점
 - :man:이동찬 : React 뿐만 아니라 Git 와 GitHub 까지 리뷰할수 있어서 의미있던 프로젝트였습니다. 팀원들의 도움으로 멋진 결과물이 나온거 같습니다. :clap:
 - :man:김현수 : 중간에 사정이 생겨 끝까지 마무리를 못해 아쉬웠던 프로젝트였습니다. Git 와 GitHub을 사용하는 데 있어 익숙해질 수 있었습니다. 팀원들의 노력으로 만들어 제가 관여한 부분이 별로 없어서 미안했습니다ㅠㅠ
-- :woman:이영주 : 하나 해결하면 또 다른 곳에서 에러가 나 기능을 구현하기 어려웠습니다. app.js와 form.jsx도 헷갈리는 부분이 많았습니다. 팀원들의 도움과 끈기가 아니었다면 해결하지 못했을 프로젝트였습니다. 🙇‍
+- :woman:이영주 : 하나 해결하면 또 다른 곳에서 에러가 나 기능을 구현하기 어려웠습니다. app.js와 form.jsx도 헷갈리는 부분이 많았습니다. 팀원들의 도움과 끈기가 아니었다면 해결하지 못했을 프로젝트였습니다. 🙇‍ -->
 
 
 <br/>
