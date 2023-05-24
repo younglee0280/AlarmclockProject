@@ -10,6 +10,19 @@ const Alarm = (props) => {
 		console.log('');
 		setIsEditing(true);
 	};
+	
+	const deleteHandler = () => {
+		props.onDelete(props.id);
+	}
+
+	const updateHandler = () => {
+		setInputText(event.target.value);
+
+		if (event.key === 'spacebar'){
+			props.onUpdate(props.id, inputText);
+			setIsEditing(!isEditing);
+		}
+	};
 
     let element;
 	if (isEditing) {
