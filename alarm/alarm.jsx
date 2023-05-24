@@ -33,11 +33,17 @@ const Alarm = (props) => {
 					value={inputText}
 					onChange={updateHandler}
 					onKeyDown={updateHandler}
-					onBlur={blurHandler}
 					autoFocus />
 				<span>{props.ampm} {props.hour} 시 {props.minute} 분</span>
 			</>
 		);
 
+} else {
+	element = (
+		<div className='view'>
+
+			
+		</div>
+	) 
 }
 }
